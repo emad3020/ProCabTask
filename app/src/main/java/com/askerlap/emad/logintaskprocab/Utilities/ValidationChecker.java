@@ -36,6 +36,12 @@ public class ValidationChecker {
             return false;
         }
 
+        public static boolean isSimilarPassword(String password1,String password2){
+            if (password1.contentEquals(password2))
+                return true;
+            return false;
+        }
+
     }
 
 
