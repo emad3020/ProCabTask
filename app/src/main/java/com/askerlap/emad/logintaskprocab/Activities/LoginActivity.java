@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.askerlap.emad.logintaskprocab.R;
+import com.askerlap.emad.logintaskprocab.Utilities.ValidationChecker;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -18,6 +19,8 @@ public class LoginActivity extends AppCompatActivity {
     private AppCompatButton mBtnLogin;
     private AppCompatButton mBtnForgetPassword;
     private AppCompatButton mBtnHaveNoAccount;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,16 +57,26 @@ public class LoginActivity extends AppCompatActivity {
         return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String userMail = mEdEmailInput.getText().toString();
+                String userPassword = mEdPasswordInput.getText().toString();
+                if (ValidationChecker.EmailValidation.isEmpty(userMail)){
+                    mEdEmailInput.setError(getString(R.string.invalid_empty_input_error));
+                } else if (!ValidationChecker.EmailValidation.isGoodEmail(userMail)){
+                    mEdEmailInput.setError(getString(R.string.invalid_bad_email));
+                } else if (ValidationChecker.PasswordValidation.isEmpty(userPassword)){
+                    mEdPasswordInput.setError(getString(R.string.invalid_empty_input_error));
+                } else if (!ValidationChecker.PasswordValidation.isStrongPassword(userPassword)){
+                    mEdPasswordInput.setError(getString(R.string.invalid_weak_password));
+                } else {
+                    startMainActivity();
+                }
 
-                Context context = LoginActivity.this;
-                String sms = " Button just clicked";
-                int duration = Toast.LENGTH_LONG;
-
-                Toast.makeText(context, sms, duration)
-                        .show();
             }
         };
     }
+
+
+
 
 
     //-------------- listener to link the Registration activity ----------//
@@ -81,5 +94,15 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(registerIntent);
             }
         };
+    }
+
+
+    private void startMainActivity(){
+        Context context = LoginActivity.this;
+        String sms = " Button just clicked";
+        int duration = Toast.LENGTH_LONG;
+
+        Toast.makeText(context, sms, duration)
+                .show();
     }
 }
