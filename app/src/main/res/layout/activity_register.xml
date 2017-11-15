@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/page_1"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/page_1_2"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"/>
+
+    <!-- pager for sliding the fragments -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragmentPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"/>
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_gravity="bottom"
+        android:id="@+id/viewPagerIndicator"
+        app:ci_drawable="@drawable/rounded_cell"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+</FrameLayout>

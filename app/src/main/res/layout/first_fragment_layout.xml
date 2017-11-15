@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:id="@+id/nameDataInput_container">
+            <android.support.v7.widget.AppCompatEditText
+                android:inputType="textPersonName"
+                android:imeOptions="actionNext"
+                android:id="@+id/ed_firstname"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/firstName_hint_text"
+                android:textColorHint="@color/pureWhiteColor"
+                android:textColor="@color/pureWhiteColor"
+                app:backgroundTint="@color/pureWhiteColor"/>
+            <android.support.v7.widget.AppCompatEditText
+                android:inputType="textPersonName"
+                android:imeOptions="actionNext"
+                android:id="@+id/ed_lastname"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/lastName_hint_text"
+                android:textColorHint="@color/pureWhiteColor"
+                android:textColor="@color/pureWhiteColor"
+                app:backgroundTint="@color/pureWhiteColor"/>
+        </LinearLayout>
+
+        <include layout="@layout/registeration_complete_input_data"/>
+    </RelativeLayout>

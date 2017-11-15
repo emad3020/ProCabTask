@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_marginTop="64dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/pureWhiteColor"
+        android:hint="@string/password_hint_text"
+        android:textColorHint="@color/pureWhiteColor"
+        android:textColor="@color/pureWhiteColor"
+        android:textSize="23sp"
+        android:fontFamily="@font/roboto_right"
+        android:padding="16dp"
+        android:id="@+id/ed_password"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_below="@id/ed_password"
+        android:layout_marginTop="10dp"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/pureWhiteColor"
+        android:hint="@string/confirmPassword_hint_text"
+        android:textColorHint="@color/pureWhiteColor"
+        android:textColor="@color/pureWhiteColor"
+        android:textSize="23sp"
+        android:fontFamily="@font/roboto_right"
+        android:padding="16dp"
+        android:id="@+id/ed_confirmPassword"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_confirmPassword"
+        android:background="@drawable/rounded_squre_button"
+        android:layout_margin="20dp"
+        android:text="@string/finish_hint_text"
+        android:textAllCaps="false"
+        android:textSize="23sp"
+        android:textColor="@color/gradientColorFirst"
+        android:fontFamily="@font/roboto_right"/>
+</RelativeLayout>

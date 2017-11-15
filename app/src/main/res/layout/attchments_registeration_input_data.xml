@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/second_visaData_container"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/img_attach1"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:background="@drawable/rounded_squre_button"
+            android:drawableTop="@mipmap/ic_attachmend"
+            android:fontFamily="@font/roboto_right"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:text="@string/passport_copy_hint_text"
+            android:textAllCaps="false"
+            android:textColor="@color/gradientColorSecond"
+            android:textSize="16sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/img_attach2"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_squre_button"
+            android:drawableTop="@mipmap/ic_attachmend"
+            android:fontFamily="@font/roboto_right"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:text="@string/civilID_copy_hint_text"
+            android:textAllCaps="false"
+            android:textColor="@color/gradientColorSecond"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/img_attach3"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:background="@drawable/rounded_squre_button"
+            android:drawableTop="@mipmap/ic_attachmend"
+            android:fontFamily="@font/roboto_right"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:text="@string/residence_copy_hint_text"
+            android:textAllCaps="false"
+            android:textColor="@color/gradientColorSecond"
+            android:textSize="16sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/img_attach4"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_squre_button"
+            android:drawableTop="@mipmap/ic_attachmend"
+            android:fontFamily="@font/roboto_right"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:text="@string/otherDoc_copy_hint_text"
+            android:textAllCaps="false"
+            android:textColor="@color/gradientColorSecond"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">LoginTaskProcab</string>
+    <string name="nessary_to_login_text">You need to login</string>
+    <string name="visa_mesg_text">Don\'t worry about visa \nWe can guarantee it for you</string>
+    <string name="LoginOrResg_text">Login Or Register</string>
+
+    <string name="main_screen_title">My Profile</string>
+    <string name="login_text">Login</string>
+    <string name="email_hint_text">Email</string>
+    <string name="password_hint_text">Password</string>
+    <string name="login_hint_text">Login</string>
+    <string name="forgetPassword_hint_text">Forget Password?</string>
+    <string name="haveNoAccount_hint_text">You don\'t have account?<b>Register!</b></string>
+    <string name="firstName_hint_text">First Name</string>
+    <string name="lastName_hint_text">Last Name</string>
+    <string name="phone_hint_text">Contact Number</string>
+    <string name="Address_hint_text">Current Address</string>
+    <string name="employeerName_hint_text">Employeer Name</string>
+    <string name="engagData_hint_text">Engagement Data</string>
+    <string name="next_hint_text">Next</string>
+    <string name="nationality_hint_text">Nationality</string>
+    <string name="passNumber_hint_text">Pass.Number</string>
+    <string name="placeBirth_hint_text">Place of Birth</string>
+    <string name="birthData_hint_text">Date of Birth</string>
+    <string name="issuePlace_hint_text">Place of Issue</string>
+    <string name="issueDate_hint_text">Pass. Issue Date</string>
+    <string name="expireDate_hint_text">Pass. Expiry Date</string>
+    <string name="cidNumber_hint_text">Cid Number</string>
+    <string name="passport_copy_hint_text">Passport Copy</string>
+    <string name="civilID_copy_hint_text">Civil Id Copy</string>
+    <string name="residence_copy_hint_text">Residence Copy</string>
+    <string name="otherDoc_copy_hint_text">Other Documents</string>
+    <string name="confirmPassword_hint_text">Confirm Password</string>
+    <string name="finish_hint_text">Finish</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+
+    <!-- Random data for Marital status Spinner -->
+    <string-array name="marital_status">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Prefer not to say</item>
+    </string-array>
+
+
+    <!-- Random data for Nationalities Spinner-->
+    <string-array name="nationalities_array">
+        <item>Albanians</item>
+        <item>Algerians</item>
+        <item>Americans</item>
+        <item>Andorrans</item>
+        <item>Angolans</item>
+        <item>Botswana</item>
+        <item>Brazilians</item>
+        <item>Bretons</item>
+        <item>British </item>
+        <item>Chinese</item>
+        <item>Colombians</item>
+        <item>Comorians</item>
+        <item>Dutch</item>
+        <item>East Timorese</item>
+        <item>Ecuadorians</item>
+        <item>Egyptians</item>
+    </string-array>
+</resources>

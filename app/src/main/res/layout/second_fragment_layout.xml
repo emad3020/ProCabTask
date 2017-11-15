@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/visaData_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_userNational"
+                app:backgroundTint="@color/pureWhiteColor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/nationality_hint_text"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="@color/pureWhiteColor"
+                android:textColorHint="@color/pureWhiteColor" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_passNumber"
+                app:backgroundTint="@color/pureWhiteColor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/passNumber_hint_text"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:textColor="@color/pureWhiteColor"
+                android:textColorHint="@color/pureWhiteColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/BirthData_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visaData_container"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_placeOfBirth"
+                app:backgroundTint="@color/pureWhiteColor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/placeBirth_hint_text"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="@color/pureWhiteColor"
+                android:textColorHint="@color/pureWhiteColor" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_birthData"
+                app:backgroundTint="@color/pureWhiteColor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/birthData_hint_text"
+                android:imeOptions="actionNext"
+                android:inputType="date"
+                android:textColor="@color/pureWhiteColor"
+                android:textColorHint="@color/pureWhiteColor" />
+        </LinearLayout>
+
+        <include layout="@layout/second_registeration_input_data" />
+
+        <include layout="@layout/attchments_registeration_input_data" />
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

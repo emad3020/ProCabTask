@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.askerlap.emad.logintaskprocab.Activities.LoginActivity">
+
+    <ImageView
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/page_1"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/page_1_2"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="center_vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/screen_title"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pureWhiteColor"
+                android:textSize="23sp"
+                android:fontFamily="@font/roboto_right"
+                android:text="@string/login_text"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tv_permission_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_title"
+                android:layout_marginTop="20dp"
+                android:textSize="26sp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/nessary_to_login_text"
+                android:textColor="@color/pureWhiteColor"
+                android:gravity="center"/>
+            <TextView
+
+                android:id="@+id/tv_permission_mesg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_permission_title"
+                android:textSize="20sp"
+                android:textColor="@color/pureWhiteColor"
+                android:gravity="center_horizontal"
+                android:text="@string/visa_mesg_text"
+                android:fontFamily="@font/roboto_right"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dataInput_contaier"
+                android:layout_below="@id/tv_permission_mesg"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pureWhiteColor">
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/ed_email_input"
+                        android:inputType="textEmailAddress"
+                        android:imeOptions="actionNext"
+                        android:textColorHint="@color/pureWhiteColor"
+                        android:textColor="@color/pureWhiteColor"
+                        android:hint="@string/email_hint_text"
+                        android:drawablePadding="10dp"
+                        app:backgroundTint="@color/pureWhiteColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/group_5"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pureWhiteColor">
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/ed_password_input"
+                        android:inputType="textPassword"
+                        android:imeOptions="actionDone"
+                        android:textColorHint="@color/pureWhiteColor"
+                        android:textColor="@color/pureWhiteColor"
+                        android:hint="@string/password_hint_text"
+                        android:drawablePadding="10dp"
+                        app:backgroundTint="@color/pureWhiteColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/group_3"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textColor="@color/gradientColorFirst"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/roboto_right"
+                    android:textSize="20sp"
+                    android:text="@string/login_hint_text"
+                    android:background="@color/pureWhiteColor"/>
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_forget_password"
+                android:textAllCaps="false"
+                android:text="@string/forgetPassword_hint_text"
+                android:textSize="16sp"
+                android:textColor="@color/pureWhiteColor"
+                android:fontFamily="@font/roboto_right"
+                android:background="@android:color/transparent"
+                android:layout_below="@+id/dataInput_contaier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/haveNoAccount_hint_text"
+                android:id="@+id/btn_have_no_account"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textColor="@color/pureWhiteColor"
+                android:fontFamily="@font/roboto_right"
+                android:background="@android:color/transparent"
+                android:layout_below="@+id/btn_forget_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>
