@@ -48,16 +48,16 @@ public class PermissionUtility {
 
     public void permissionInfo() {
         AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
-        builder.setTitle("Need Storage Permission")
-                .setMessage("This app need Storage Permission.")
-                .setPositiveButton("Grant", new DialogInterface.OnClickListener() {
+        builder.setTitle(mContext.getString(R.string.storage_permission_title))
+                .setMessage(mContext.getString(R.string.storage_permission_mesg))
+                .setPositiveButton(mContext.getString(R.string.grant_btn_text), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.cancel();
                         ActivityCompat.requestPermissions((Activity) mContext,new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},EXTERNAL_STORAGE_PERMISSION_CONSTANT);
                     }
                 })
-                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                .setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.cancel();
@@ -82,7 +82,7 @@ public class PermissionUtility {
                         Toast.makeText(mContext,"Go to permissions to Grant Storage",Toast.LENGTH_LONG).show();
                     }
                 })
-                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                .setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.cancel();
