@@ -42,6 +42,7 @@
     <string name="invalid_empty_input_error">This field is required</string>
     <string name="invalid_bad_email">This doesn\'t refer to any email address</string>
     <string name="invalid_weak_password">Password must be more than 6 character length</string>
+    <string name="invalid_not_similar_error">Passwords don\'t matche</string>
 
     <!-- Random data for Marital status Spinner -->
     <string-array name="marital_status">

@@ -17,7 +17,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e2f9e1f8-52ed-4c3b-931e-2b9a336b2338" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Fragments/SecondFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Fragments/SecondFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Fragments/ThirdFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Fragments/ThirdFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Utilities/ValidationChecker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Utilities/ValidationChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/third_fragment_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/third_fragment_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,10 +69,18 @@
       <file leaf-file-name="ThirdFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Fragments/ThirdFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="436">
+              <caret line="46" column="55" lean-forward="false" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#onFinishClicked#0;class#ThirdFragment#0" expanded="false" />
+                <element signature="e#2028#3070#0" expanded="true" />
+                <element signature="e#2369#2414#0" expanded="true" />
+                <element signature="e#2552#2593#0" expanded="true" />
+                <element signature="e#2712#2757#0" expanded="true" />
+                <element signature="e#2915#2960#0" expanded="true" />
+                <element signature="e#3069#3070#0" expanded="true" />
+                <element signature="method#startMainActivity#0;class#ThirdFragment#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -82,6 +93,19 @@
               <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="third_fragment_layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/third_fragment_layout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -98,8 +122,8 @@
       <file leaf-file-name="ValidationChecker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Utilities/ValidationChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="482">
+              <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding>
                 <element signature="e#588#589#0" expanded="true" />
                 <element signature="e#635#636#0" expanded="true" />
@@ -1891,7 +1915,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/rounded_squre_button.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/attchments_registeration_input_data.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/second_fragment_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/third_fragment_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Utilities/PermissionUtility.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
@@ -1900,10 +1923,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/View/LockedViewPager.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Activities/RegisterActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Utilities/ValidationChecker.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Activities/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Fragments/FirstFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Fragments/SecondFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/third_fragment_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Utilities/ValidationChecker.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Fragments/ThirdFragment.java" />
       </list>
     </option>
@@ -2201,7 +2225,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510769260660" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510769815430" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2249,7 +2273,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510769260660" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510769815430" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2432,7 +2456,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510769260662" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510769815432" />
       </method>
     </configuration>
     <list size="1">
@@ -2555,7 +2579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510769049265</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding option menu to the fragment">
+      <created>1510769278401</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1510769278401</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2608,9 +2639,9 @@
     <MESSAGE value="No changes for the pager adapter" />
     <MESSAGE value="modify the validation class for mor easy use" />
     <MESSAGE value="modify the checker for the new editing in validation class" />
-    <MESSAGE value="adding option menu to the fragment" />
     <MESSAGE value="modify the layout to the new locked viewPager" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify the layout to the new locked viewPager" />
+    <MESSAGE value="adding option menu to the fragment" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding option menu to the fragment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2942,17 +2973,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/third_fragment_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -3041,17 +3061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Utilities/ValidationChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Activities/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -3078,12 +3087,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/third_fragment_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Utilities/ValidationChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/askerlap/emad/logintaskprocab/Fragments/ThirdFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="436">
+          <caret line="46" column="55" lean-forward="false" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#onFinishClicked#0;class#ThirdFragment#0" expanded="false" />
+            <element signature="e#2028#3070#0" expanded="true" />
+            <element signature="e#2369#2414#0" expanded="true" />
+            <element signature="e#2552#2593#0" expanded="true" />
+            <element signature="e#2712#2757#0" expanded="true" />
+            <element signature="e#2915#2960#0" expanded="true" />
+            <element signature="e#3069#3070#0" expanded="true" />
+            <element signature="method#startMainActivity#0;class#ThirdFragment#0" expanded="false" />
           </folding>
         </state>
       </provider>
