@@ -22,11 +22,16 @@
         android:scaleType="fitXY"/>
 
     <!-- pager for sliding the fragments -->
-    <android.support.v4.view.ViewPager
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/fragmentPager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:isScrollContainer="false"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:fitsSystemWindows="true"/>-->
+    <com.askerlap.emad.logintaskprocab.View.LockedViewPager
         android:id="@+id/fragmentPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true"/>
+        android:layout_height="match_parent"/>
     <me.relex.circleindicator.CircleIndicator
         android:layout_gravity="bottom"
         android:id="@+id/viewPagerIndicator"

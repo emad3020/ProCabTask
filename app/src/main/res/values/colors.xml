@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#f08a47</color>
     <color name="colorPrimaryDark">#da7634</color>
-    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorAccent">#eea849</color>
 
 
     <!-- colors used for gradient background -->
