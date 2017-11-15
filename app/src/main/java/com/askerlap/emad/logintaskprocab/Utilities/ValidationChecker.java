@@ -15,16 +15,15 @@ import android.util.Patterns;
  * ******************************************************/
 public class ValidationChecker {
 
-
+    public static boolean isEmpty(String email) {
+        return TextUtils.isEmpty(email);
+    }
     //Inner class for Email Validations
     public static class EmailValidation {
         public static boolean isGoodEmail(String email) {
             return Patterns.EMAIL_ADDRESS.matcher(email).matches();
         }
 
-        public static boolean isEmpty(String email) {
-            return TextUtils.isEmpty(email);
-        }
     }
 
 
@@ -37,18 +36,8 @@ public class ValidationChecker {
             return false;
         }
 
-        public static boolean isEmpty(String password) {
-            return TextUtils.isEmpty(password);
-        }
     }
 
-    //Inner class for Username Validation
-    public static class UsernameValidation {
-
-        public static boolean isEmpty(String username) {
-            return TextUtils.isEmpty(username);
-        }
-    }
 
 
 }
