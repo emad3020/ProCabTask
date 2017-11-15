@@ -39,7 +39,9 @@
     <string name="grant_btn_text">Grant</string>
     <string name="storage_permission_title">Need Storage Permission</string>
     <string name="storage_permission_mesg">In order to get files and Photos from your device This app need Storage Permission.</string>
-
+    <string name="invalid_empty_input_error">This field is required</string>
+    <string name="invalid_bad_email">This doesn\'t refer to any email address</string>
+    <string name="invalid_weak_password">Password must be more than 6 character length</string>
 
     <!-- Random data for Marital status Spinner -->
     <string-array name="marital_status">
