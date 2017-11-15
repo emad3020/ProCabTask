@@ -35,6 +35,11 @@
     <item name="visible" type="id" />
     <item name="masked" type="id" />
 
+    <string name="required_permission_title">Required Permissions</string>
+    <string name="grant_btn_text">Grant</string>
+    <string name="storage_permission_title">Need Storage Permission</string>
+    <string name="storage_permission_mesg">In order to get files and Photos from your device This app need Storage Permission.</string>
+
 
     <!-- Random data for Marital status Spinner -->
     <string-array name="marital_status">
