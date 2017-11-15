@@ -24,6 +24,7 @@ public class viewerPagerAdapter extends FragmentPagerAdapter {
         this.context = context;
     }
 
+
     @Override
     public Fragment getItem(int position) {
         Fragment fragment = new Fragment();
