@@ -2,8 +2,6 @@ package com.askerlap.emad.logintaskprocab.Activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.askerlap.emad.logintaskprocab.Adapter.viewerPagerAdapter;
 import com.askerlap.emad.logintaskprocab.R;
@@ -14,7 +12,7 @@ import me.relex.circleindicator.CircleIndicator;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    private LockedViewPager mFragmentPager;
+    public static LockedViewPager mFragmentPager;
     private CircleIndicator mViewPagerIndicator;
     private PermissionUtility permissionUtility;
 
@@ -28,18 +26,20 @@ public class RegisterActivity extends AppCompatActivity {
 
         mFragmentPager = findViewById(R.id.fragmentPager);
         mViewPagerIndicator = findViewById(R.id.viewPagerIndicator);
-        mFragmentPager.setSwipeable(false);
+        mFragmentPager.setSwipeable(false);   //prevent pager from swiping
+
         /********************* END OF UI COMPONENTS ***********************/
 
         mFragmentPager.setAdapter(new viewerPagerAdapter(getSupportFragmentManager(),this));
         mViewPagerIndicator.setViewPager(mFragmentPager);
+
         permissionUtility = new PermissionUtility(RegisterActivity.this);
 
         permissionUtility.checkMultiplePermissionSC();
 
     }
 
-    @Override
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.register_menu,menu);
         return super.onCreateOptionsMenu(menu);
@@ -54,5 +54,7 @@ public class RegisterActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
+    }*/
+
+
 }
