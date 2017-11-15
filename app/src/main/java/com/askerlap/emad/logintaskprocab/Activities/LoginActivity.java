@@ -59,11 +59,11 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String userMail = mEdEmailInput.getText().toString();
                 String userPassword = mEdPasswordInput.getText().toString();
-                if (ValidationChecker.EmailValidation.isEmpty(userMail)){
+                if (ValidationChecker.isEmpty(userMail)){
                     mEdEmailInput.setError(getString(R.string.invalid_empty_input_error));
                 } else if (!ValidationChecker.EmailValidation.isGoodEmail(userMail)){
                     mEdEmailInput.setError(getString(R.string.invalid_bad_email));
-                } else if (ValidationChecker.PasswordValidation.isEmpty(userPassword)){
+                } else if (ValidationChecker.isEmpty(userPassword)){
                     mEdPasswordInput.setError(getString(R.string.invalid_empty_input_error));
                 } else if (!ValidationChecker.PasswordValidation.isStrongPassword(userPassword)){
                     mEdPasswordInput.setError(getString(R.string.invalid_weak_password));
